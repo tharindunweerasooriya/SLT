@@ -374,7 +374,7 @@ public class user {
 				} 
 	 
 				//create html table
-				output = "<table border=\"1\"><tr> <th>Reference Number</th> <th>MSAN_Name</th> <th>Prgress Status</th> <th>Request Time</th> <th>Enterd By</th> <th>Enterd On</th> <th>Assign To</th> <th>Assign On</th> <th>Completed On</th> <th>Update</th><th>Remove</th></tr>"; 
+				output = "<table class='table table-hover' border='1'><tr> <th scope='col'>Reference Number</th> <th scope='col'>MSAN_Name</th> <th scope='col'>Prgress Status</th> <th scope='col'>Request Time</th> <th scope='col'>Enterd By</th> <th scope='col'>Enterd On</th> <th scope='col'>Assign To</th> <th scope='col'>Assign On</th> <th scope='col'>Completed On</th> <th scope='col'>Update</th><th scope='col'>Remove</th></tr>"; 
 				
 				//query
 				String query = "select * from msan_req"; 

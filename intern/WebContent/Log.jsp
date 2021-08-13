@@ -8,9 +8,7 @@
 <script src="Components/log.js"></script>
 </head>
 <body>
-<div class="container">
-<div class="row">
-<div class="col-6">
+<div class="row justify-content-center"><div class="col-7">
 <h1>Login</h1>
 <form id="formLogin">
  Employee Name: 
